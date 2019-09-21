@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="redis">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="redis_lib_survey.cpp" />
+    <ClCompile Include="redis\redis_test.cpp">
+      <Filter>redis</Filter>
+    </ClCompile>
+    <ClCompile Include="redis\redis_core.cpp">
+      <Filter>redis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="redis\redis_pub.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_import.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_test.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_cfg.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_func.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
