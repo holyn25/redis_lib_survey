@@ -1,5 +1,12 @@
 #pragma once
 
+#define release_point(p); \
+    if (p) \
+    { \
+        delete p; \
+        p = 0; \
+    }
+
 std::string i_2_str(int i)
 {
     char buf[32] = { 0 };
